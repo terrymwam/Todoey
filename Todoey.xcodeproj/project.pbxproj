@@ -23,7 +23,7 @@
 		EEF315AB20961BC000A80023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEF315AD20961BC000A80023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEF315B020961BC000A80023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EEF315B220961BC000A80023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF315B220961BC000A80023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				EEF315A520961BC000A80023 /* Todoey */,
-				EEF315B220961BC000A80023 /* Info.plist */,
 				EEF315A420961BC000A80023 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +92,7 @@
 			children = (
 				EEF315A620961BC000A80023 /* AppDelegate.swift */,
 				EE93517620992D2C0024E7CB /* Supporting Files */,
+				EEF315B220961BC000A80023 /* Info.plist */,
 				EE93517520992D170024E7CB /* Views */,
 				EE93517420992D030024E7CB /* Controllers */,
 				EE93517220992CBE0024E7CB /* Data Model */,
